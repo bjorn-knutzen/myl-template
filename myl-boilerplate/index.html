@@ -1,0 +1,160 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width">
+        <title>Demo</title>
+        <meta name="keywords" content="Demo New-fountain"/>		
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <meta name="description" content="New-fountain assesment"/>
+        <!-- CSS -->
+        <link rel="stylesheet" href="media/scss/sass/style.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Domine&display=swap" rel="stylesheet">
+        <link href="media/favicon.ico" rel="shortcut icon">
+        <!-- scripts -->
+        <script src="media/scripts/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+       		
+    </head>
+    <body>
+        <header class="header">	
+            <div class="brand">
+                <img class="brand__logo" src="media/images/sample-logo.jpg" alt="sample logo">
+                <div class="brand__title">
+                    <h1>Sample logo</h1>
+                    <span class="brand__slogan">
+                        Site slogan
+                    </span>
+                </div>
+            </div>
+            <div id="nav-button"  class="hamburger-menu" data-responsive-toggle="mainmenu" data-hide-for="none">
+                <p class="hamburger-menu__title">Menu</p>
+                <button class="menu-icon" type="button" data-toggle>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <nav class="main-nav"  >
+                <ul>
+                    <li> 
+                        <a href="#">link </a>
+                    </li>
+                    <li> 
+                        <a href="#">link 2</a>
+                    </li>
+                    <li> 
+                        <a href="#">link 3</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="jumbotron grid-container">
+            <section class="jumbotron__content grid-container__cell">
+                <h1>Titel van de headersectie</h1>
+                <p> 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida vehicula enim vel ornare. Donec pharetra erat nisi. Vivamus eget malesuada ligula, at pharetra sapien. Nulla varius urna eu turpis rhoncus, in blandit nisl varius
+                </p>
+                <a href="#" class="button button--default">
+                    Klik!
+                </a>
+            </section>
+        </div>
+        <div class="content-block grid-container">
+            <article class="grid-container__cell grid-container__cell--large">
+                Praesent elit lacus, vulputate a odio mattis, tincidunt placerat arcu. Nunc dictum iaculis metus non pharetra. Praesent tincidunt nunc eget odio sodales aliquam. Proin egestas, augue sed sagittis malesuada, nibh ligula semper magna, eget consequat sapien lacus nec orci.
+            </article>
+            <article class="grid-container__cell grid-container__cell--small background-color-tertiary">
+                Praesent elit lacus, vulputate a odio mattis, tincidunt placerat arcu. Nunc dictum iaculis metus non pharetra. Praesent tincidunt nunc eget odio sodales aliquam. Proin egestas, augue sed sagittis malesuada, nibh ligula semper magna, eget consequat sapien lacus nec orci.
+            </article>
+        </div>
+        <div class="content-block grid-container">
+            <article class="grid-container__cell grid-container__cell--small background-color-tertiary">
+                Praesent elit lacus, vulputate a odio mattis, tincidunt placerat arcu. Nunc dictum iaculis metus non pharetra. Praesent tincidunt nunc eget odio sodales aliquam. Proin egestas, augue sed sagittis malesuada, nibh ligula semper magna, eget consequat sapien lacus nec orci.
+            </article>
+            <article class="grid-container__cell grid-container__cell--large">
+                Praesent elit lacus, vulputate a odio mattis, tincidunt placerat arcu. Nunc dictum iaculis metus non pharetra. Praesent tincidunt nunc eget odio sodales aliquam. Proin egestas, augue sed sagittis malesuada, nibh ligula semper magna, eget consequat sapien lacus nec orci.
+            </article>
+        </div>
+        <div class="content-block grid-container">
+            <article class="grid-container__cell grid-container__cell--medium">
+                Praesent elit lacus, vulputate a odio mattis, tincidunt placerat arcu. Nunc dictum iaculis metus non pharetra. Praesent tincidunt nunc eget odio sodales aliquam. Proin egestas, augue sed sagittis malesuada, nibh ligula semper magna, eget consequat sapien lacus nec orci.
+            </article>
+            <article class="grid-container__cell grid-container__cell--medium">
+                Praesent elit lacus, vulputate a odio mattis, tincidunt placerat arcu. Nunc dictum iaculis metus non pharetra. Praesent tincidunt nunc eget odio sodales aliquam. Proin egestas, augue sed sagittis malesuada, nibh ligula semper magna, eget consequat sapien lacus nec orci.
+            </article>
+        </div>
+        
+        <div class="carrousel">
+
+            <div class="carrousel__item fade">
+                <div class="carrousel__number">1 / 3</div>
+                <img src="media\images\caroussel\bryce-canyon-national-park.jpg" style="width:100%" alt="bryce-canyon-national-park">
+                <div class="carrousel__text">bryce-canyon-national-park</div>
+            </div>
+        
+            <div class="carrousel__item fade">
+                <div class="carrousel__number">2 / 3</div>
+                <img src="media\images\caroussel\joshua-tree-national-park.jpg" style="width:100%" alt="joshua-tree-national-park">
+                <div class="carrousel__text">joshua-tree-national-park</div>
+            </div>
+        
+            <div class="carrousel__item fade">
+                <div class="carrousel__number">3 / 3</div>
+                <img src="media\images\caroussel\yosemite-national-park.jpg" style="width:100%" aly="yosemite-national-park">
+                <div class="carrousel__text">yosemite-national-park</div>
+            </div>
+        
+            <a class="carrousel__button carrousel__button--prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="carrousel__button carrousel__button--next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        
+        <!-- The dots/circles -->
+        <div class="carrousel__dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <div class="content-block grid-container">
+            <div class="grid-container__cell grid-container__cell--xtra-large banner">
+                <section class="banner__content">
+                    <h2>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing 
+                    </h2>
+                    <p>
+                        Praesent elit lacus, vulputate a odio mattis, tincidunt placerat arcu. Nunc dictum iaculis metus non pharetra. 
+                    </p>
+                </section>
+            </div>
+        </div>
+        <div class="accordion">
+            <h2>Accordion</h2>
+
+            <button class="accordion__button">Section 1</button>
+            <div class="accordion__content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            
+            <button class="accordion__button">Section 2</button>
+            <div class="accordion__content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            
+            <button class="accordion__button">Section 3</button>
+            <div class="accordion__content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class=" grid-container">
+                footer
+            </div>
+        </footer>
+
+        <script src="media/scripts/carrousel.js"></script>		
+        <script src="media/scripts/accordion.js"></script>
+        <script src="media/scripts/hamburger-menu.js"></script>			
+    </body>
+</html>
